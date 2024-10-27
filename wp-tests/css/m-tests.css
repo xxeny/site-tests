@@ -1,0 +1,48 @@
+
+@media screen and (max-width: 550px) {
+
+    .content-info-test{
+        margin: auto 10px;
+    }
+    
+    /* .person-data input[type='text']{
+        width: 100%;
+    } */
+    
+    .banner{
+        margin: 0 0 3em 0;
+        justify-content: center;
+    }
+
+    .text-banner h1{    
+        font-size: calc(1.3rem + 16 * (100vw / 1280));
+        
+    }
+
+    .box-slider .img-slider {
+        height: 5em;
+        width: 3em;
+    }
+
+    .body-slider{
+        min-width: 350px;
+    }
+    
+    .prev-button{
+        left: -300px;
+    }
+
+    .search, .metka {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1460px) {
+
+    .banner{
+        justify-content: center;
+    }
+
+
+}

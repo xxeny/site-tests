@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 550px) {
+    
+    .content-form-testing{
+        width: 90%;
+        padding: 0 1em;
+    }
+    
+    .person-data input[type='text']{
+        width: 100%;
+    }
+    
+    
+}

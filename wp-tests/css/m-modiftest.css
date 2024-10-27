@@ -1,0 +1,66 @@
+@media screen and (max-width: 550px) {
+    
+    .img-modif{
+        width: 1.8em;
+        height: 1.8em;
+    }
+    
+    .filter input,
+    .filter select {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    
+    .hide{
+        display: none!important;
+    }
+
+    .show-flex{
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .lenta-tests > .elem {
+        height: 4em;
+        padding: 10px;
+    }
+
+    .info-test{
+        flex: 10;
+    }
+
+    .title-test {
+        font-size: calc(0.9rem + 8*(100vw / 1280));
+    }
+
+    .description-test {
+        font-size: calc(0.6rem + 8*(100vw / 1280));
+    }
+
+    .m-icon{
+        width: 100%;
+        display: flex;
+        flex: 1;
+    }
+
+    .icons {
+        position: absolute;
+        right: 10px;
+        display: none;
+        z-index: 10;
+        text-align: right;
+        background-image: linear-gradient(to right, rgba(255,255,255,0.7), rgb(255,255,255));
+
+    }
+
+    /* .img-modif {
+        width: 1.3em;
+        height: 1.3em;
+    } */
+    
+
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width: 550px) {
+    
+    .error {
+        width: 90%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 950px) {
+    
+    .content-form{
+        flex-wrap: wrap;
+    }
+
+    .container-test-result,
+    .container-question{
+        width: 100vw;
+        padding: 1.5em 1.5em 0 1.5em;
+        height: inherit;
+    }
+    
+    .container-answer{
+        padding-left: 1em;
+    }
+
+    .container-value-results label{
+        font-size: 0.9rem;
+    }
+
+}

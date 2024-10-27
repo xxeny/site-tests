@@ -1,0 +1,89 @@
+
+@media screen and (max-width: 550px) {
+
+.pc-nav-bar{
+    display: none;
+}
+
+.mini-nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    width: 100%;
+    font-size: 2.1rem;
+}
+
+
+.btn-mini-nav-bar img{
+    width: 50px;
+    height: 50px;
+}
+
+.stealth-bar{
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 2;
+    transition: left 0.5s ease;
+    overflow: auto;   
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 50vw;
+
+    background-color: white;
+    border-right: 1px solid #DBE6F6;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.active-bar{
+    left: 0;
+    transition: left 0.5s ease;
+}
+
+.stealth-bar li{
+    padding: 1em;
+    list-style-type: none;
+    font-size: 1.3rem;
+    text-align: start;
+}
+
+.stealth-bar li:first-child{
+    text-align: end;
+    cursor: pointer;
+}
+
+.stealth-bar li:not(:first-child){
+    padding: 1em 1.5em;
+    border-bottom: 1px solid rgba(175, 195, 228, 0.6);
+}
+
+.content-info-test{
+    margin: auto 10px;
+}
+
+.content-form-testing{
+    width: 90%;
+    padding: 0 1em;
+}
+
+.person-data input[type='text']{
+    width: 100%;
+}
+
+.body-slider{
+    width: 350px;
+}
+
+.prev-button,
+.next-button {
+    right: 12px;
+}
+
+}
